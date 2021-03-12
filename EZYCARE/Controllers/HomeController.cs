@@ -33,5 +33,22 @@ namespace EZYCARE.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public ViewResult Professional()
+        {
+            return View();
+        }
+        public ViewResult AboutUsView()
+        {
+            return View();
+        }
+        public ViewResult GroupMembersView()
+        {
+            return View();
+        }
+        public ViewResult ContactUsView()
+        {
+            return View();
+        }
     }
 }
